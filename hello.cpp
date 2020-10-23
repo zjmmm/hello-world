@@ -29,8 +29,10 @@ inline void RD(int &x)
     while(c >= '0' && c <= '9') x = (x << 1) + (x << 3) + c - '0',c = getchar();
 }
 
+
+
 int main()
 {
-
+	cout<<"hello world!"<<endl;
 	return 0;
 }
